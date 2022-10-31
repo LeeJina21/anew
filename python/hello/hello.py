@@ -1,5 +1,6 @@
 from bottle import route, run
 
+@route('/')
 @route('/<name>')
 def inde(name="World");
     return 'Hello %s' % name
