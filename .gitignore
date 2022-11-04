@@ -1,0 +1,8 @@
+# anew
+
+# nodjs node_modules
+node/**/node_modules
+
+# mongodb backup / json
+mongodb/**/*.json
+mongodb/backup
