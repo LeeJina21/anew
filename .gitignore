@@ -1,7 +1,11 @@
 # anew
 
+# environment files
+.env
+
 # nodjs node_modules
 node/**/node_modules
+node/**/package-lock.json
 
 # mongodb backup / json
 mongodb/**/*.json
