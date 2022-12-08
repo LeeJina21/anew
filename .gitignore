@@ -3,9 +3,12 @@
 # environment files
 .env
 
-# nodjs node_modules
+# nodejs files 
 node/**/node_modules
 node/**/package-lock.json
+node/config/pool.js
+node/config/db_config.json
+node/**/uploadedFiles
 
 # mongodb backup / json
 mongodb/**/*.json
